@@ -5,6 +5,11 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+
+    {/* to be able to navigate through pages on the website */}
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+    
   </React.StrictMode>,
 )
