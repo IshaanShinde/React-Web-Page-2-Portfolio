@@ -10,16 +10,15 @@ const Layout = () => {
             
 
             <div className='page'>
-                {/* <span className='tags top-tags'>&lt;body&gt;</span> */}
+                <span className='tags top-tags'>0 1 1 0 0 1<br />&gt; _ &lt;</span>
 
                 <Outlet />
 
-                {/* <span className='tags bottom-tags'>
-                    &lt;/body&gt;
+                <span className='tags bottom-tags'>
+                    &gt; monomyth ( n )
                     <br />
-
-                    <span className='bottom-tag-html'>&lt;/html&gt;</span>
-                </span> */}
+                    <span className='bottom-tag-html'>&gt; n%4==0 || n%4==3 ? 0:1</span>
+                </span>
             </div>
         </div>
     )
