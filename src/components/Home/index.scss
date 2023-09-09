@@ -11,11 +11,68 @@
     h1 {
         font-size: 4rem;
         color: #ff88ff;
-        img {
+
+        /* &::before {
+            content: '<h1>';
+            color: #ff8800;
+            font-size: 1rem;
+            position: absolute;
+            margin-top: -40px;
+        }
+        &::after {
+            content: '</h1>';
+            color: #ff8800;
+            font-size: 1rem;
+            position: absolute;
+            margin-top: 18px;
+
+            animation: fadeIn 1s 1.7s backwards;
+
+        } */
+
+        /* img {
             width: 30px;
+            margin-left: 20px;
+            opacity: 0;
+            height: auto;
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.4s;
+        } */
+    }
+
+    h2 {
+        margin-top: 10px;
+        font-size: 2rem;
+        animation: fadeIn 1s 1.4s backwards;
+    }
+
+    .flat-button {
+        float: left;
+        margin-top: 10px;
+        padding: 0.4rem 0.8rem;
+        text-decoration: none;
+        
+        font-size: 1.6rem;
+        color: #5ae6dc;
+        border-radius: 8px;
+        /* border: 2px solid #5ae6dc; */
+
+        letter-spacing: 0.4rem;
+
+        animation: fadeIn 1s 1.8s backwards;
+
+        white-space: nowrap;
+
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            color: #ff88ff;
+            font-size: 2rem;
         }
     }
     .indent-forward {
         margin-left: 5%;
+    }
+    .indent-forward-two {
+        margin-left: 10%;
     }
 }

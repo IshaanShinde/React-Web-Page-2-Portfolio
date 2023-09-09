@@ -17,34 +17,34 @@ const Sidebar = () => (
             {/* nan bar main elements - HOME ABOUT CONTACT*/}
             <nav>
                 <NavLink exact='true' activeclassname='active' className='home-link' to='/'>
-                    <FontAwesomeIcon icon={faHome} color='#ff8800' />
+                    <FontAwesomeIcon icon={faHome} color='#5ae6dc' />
                 </NavLink>
 
                 <NavLink exact='true' activeclassname='active' className='about-link' to='/about'>
-                    <FontAwesomeIcon icon={faUser} color='#ff8800' />
+                    <FontAwesomeIcon icon={faUser} color='#5ae6dc' />
                 </NavLink>
 
                 <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
-                    <FontAwesomeIcon icon={faEnvelope} color='#ff8800' />
+                    <FontAwesomeIcon icon={faEnvelope} color='#5ae6dc' />
                 </NavLink>
             </nav>
 
             {/* nav bar normal elements - GITLAB GITHUB LINKEDIN YOUTUBE */}
             <ul>
                 <li><a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/ishaanshinde/'>
-                    <FontAwesomeIcon icon={faLinkedin} color='#ff8800' />
+                    <FontAwesomeIcon icon={faLinkedin} color='#5ae6dc' />
                 </a></li>
 
                 <li><a target='_blank' rel='noreferrer' href="https://gitlab.com/users/IshaanShinde/projects">
-                    <FontAwesomeIcon icon={faGitlab} color='#ff8800' />
+                    <FontAwesomeIcon icon={faGitlab} color='#5ae6dc' />
                 </a></li>
 
                 <li><a target='_blank' rel='noreferrer' href="https://github.com/IshaanShinde">
-                    <FontAwesomeIcon icon={faGithub} color='#ff8800' />
+                    <FontAwesomeIcon icon={faGithub} color='#5ae6dc' />
                 </a></li>
 
                 <li><a target='_blank' rel='noreferrer' href="https://www.youtube.com/@psychedelicloli">
-                    <FontAwesomeIcon icon={faYoutube} color='#ff8800' />
+                    <FontAwesomeIcon icon={faYoutube} color='#5ae6dc' />
                 </a></li>
                 
 
