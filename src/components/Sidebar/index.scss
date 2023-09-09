@@ -83,6 +83,8 @@
             } */
         }
 
+
+        /* HOVER TEXT */
         a.home-link {
             &:after {
                 content: 'HOME';
@@ -99,6 +101,7 @@
             }
         }
 
+        /* active page icon color */
         a.active {
             svg {
                 color: #ff88ff;
