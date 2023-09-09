@@ -108,4 +108,33 @@
             }
         }
     }
+
+    /* link icons */
+
+    ul {
+        display: block;
+        position: absolute;
+
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        bottom: 0.4rem;
+
+        list-style: none;
+        text-align: center;
+
+        li {
+            a{
+                display: block;
+                padding: 2rem 0;
+                font-size: 2rem;
+                line-height: 1.4rem;
+
+                &:hover svg {
+                    color: #ff88ff;
+                }
+
+            }
+        }
+    }
 }
