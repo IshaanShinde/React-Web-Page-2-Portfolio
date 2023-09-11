@@ -1,6 +1,7 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
 
@@ -12,6 +13,27 @@ const Contact = () => {
         }, 3000)
     }, []) */
 
+    /* const refForm = useRef()
+    const sendEmail = (e) => {
+        e.preventDefault()
+
+        emailjs
+            .sendForm(
+                'gmail',
+                'your_template_id',
+                refForm.current,
+                'your_token'
+            )
+            .then(
+                () => {
+                    alert('Message sent')
+                    window.location.reload(false)
+                },
+                () => {
+                    alert('Failed to send message')
+                }
+            )
+    } */
 
     return (
         <>
