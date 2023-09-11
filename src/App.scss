@@ -1,5 +1,7 @@
 @import 'animate.css';
-
+/* @import 'F:\Code Repositories\react-web-page-2-portfolio\node_modules\loaders.css\loaders.css'; */
+@import '../node_modules/loaders.css/src/animations/ball-triangle-trace.scss';
+/* @import '~loaders.css/src/animations/ball-triangle-trace.scss'; */
 
 /* importing the fonts */
 @font-face {
@@ -24,4 +26,19 @@ $secondary-color: #4d4d4d;
 
 input, textarea {
     font-family: 'Helvetica Neue';
+}
+
+/* loader */
+.loader-active {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    animation: fadeOut 1s 1s;
+    animation-fill-mode: forwaards;
 }

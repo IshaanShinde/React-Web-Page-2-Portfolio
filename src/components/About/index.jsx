@@ -3,6 +3,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3, faFigma, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
+import Loader from 'react-loaders'
 
 
 const About = () => {
@@ -16,6 +17,9 @@ const About = () => {
     }, []) */
 
     return (
+
+        <>
+
         <div className='container about-page'>
 
             <div className='text-zone'>
@@ -48,6 +52,10 @@ const About = () => {
                 </div>
             </div>
         </div>
+
+        {/* <Loader type='ball-triangle-path' /> */}
+
+        </>
         
     )
 }
